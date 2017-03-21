@@ -1,0 +1,14 @@
+{
+   "name": "cpe_base",
+   "description": "cpe_base role for all macOS devices.",
+   "json_class": "Chef::Role",
+   "default_attributes": {
+   },
+   "override_attributes": {
+   },
+   "chef_type": "role",
+   "run_list": ["recipe[cpe_init]"
+   ],
+   "env_run_lists": {
+   }
+}
